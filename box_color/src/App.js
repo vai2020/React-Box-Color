@@ -5,15 +5,12 @@ class App extends React.Component {
   render() {
     return (
     <div className="App">
-      <p>  second testing   </p>
+     <div className="color">   </div>
         
     </div>
   );
 }
 
   }
-
-     
-  
 
 export default App;
