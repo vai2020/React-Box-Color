@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.toggleBox {
+  height: 50px;
+  width: 50px;
+  
+}
+
+
+
+
 /* 
 
 @media (prefers-reduced-motion: no-preference) {
