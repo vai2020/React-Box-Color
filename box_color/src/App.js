@@ -10,11 +10,12 @@ class App extends React.Component {
     toggle=() => {
       this.setState ({color:"pink", counter:this.state.counter+1})
     }
-          
-  render() {
+    render() {
+      console.log(this.state.counter)   
     
     return (
     <div className="App">
+      <h1 className="c">{this.state.counter}   </h1>
      <div className="toggleBox" 
      onClick={this.toggle}  style={{backgroundColor:this.state.color}} >   </div>  
     
