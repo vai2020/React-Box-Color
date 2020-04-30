@@ -9,6 +9,10 @@ class App extends React.Component {
     } 
     toggle=() => {
       this.setState ({color:"pink", counter:this.state.counter+1})
+        if(this.state.color=="pink") {
+        this.setState({color:"blue"})
+
+        }
     }
     render() {
       console.log(this.state.counter)   
