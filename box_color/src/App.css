@@ -1,3 +1,7 @@
+.body {
+  font-family: dancing script;
+}
+
 .App {
   text-align: center;
 }
@@ -8,6 +12,9 @@
   
 }
 
+#c {
+  font-family: 'Dancing Script', cursive;
+}
 
 
 
